@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C072F1526289A2700E69D56 /* ProfitAndLossTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C072F1426289A2700E69D56 /* ProfitAndLossTableViewController.swift */; };
+		8C072F1B26289C8000E69D56 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C072F1A26289C8000E69D56 /* Model.swift */; };
+		8C072F232628A06400E69D56 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C072F222628A06400E69D56 /* HomeViewController.swift */; };
 		8C8CCAAA2624AAF4002A4CC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CCAA92624AAF4002A4CC8 /* AppDelegate.swift */; };
 		8C8CCAAC2624AAF4002A4CC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CCAAB2624AAF4002A4CC8 /* SceneDelegate.swift */; };
-		8C8CCAAE2624AAF4002A4CC8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CCAAD2624AAF4002A4CC8 /* ViewController.swift */; };
 		8C8CCAB12624AAF4002A4CC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8CCAAF2624AAF4002A4CC8 /* Main.storyboard */; };
 		8C8CCAB42624AAF4002A4CC8 /* asset_portfolio.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C8CCAB22624AAF4002A4CC8 /* asset_portfolio.xcdatamodeld */; };
 		8C8CCAB62624AAF5002A4CC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8CCAB52624AAF5002A4CC8 /* Assets.xcassets */; };
@@ -36,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C072F1426289A2700E69D56 /* ProfitAndLossTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfitAndLossTableViewController.swift; sourceTree = "<group>"; };
+		8C072F1A26289C8000E69D56 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8C072F222628A06400E69D56 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8C8CCAA62624AAF4002A4CC8 /* asset-portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "asset-portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8CCAA92624AAF4002A4CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C8CCAAB2624AAF4002A4CC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8C8CCAAD2624AAF4002A4CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C8CCAB02624AAF4002A4CC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C8CCAB32624AAF4002A4CC8 /* asset_portfolio.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = asset_portfolio.xcdatamodel; sourceTree = "<group>"; };
 		8C8CCAB52624AAF5002A4CC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C072F1926289C6600E69D56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C072F1A26289C8000E69D56 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8C8CCA9D2624AAF4002A4CC8 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +113,12 @@
 		8C8CCAA82624AAF4002A4CC8 /* asset-portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				8C072F1926289C6600E69D56 /* Model */,
 				8C8CCAA92624AAF4002A4CC8 /* AppDelegate.swift */,
 				8C8CCAAB2624AAF4002A4CC8 /* SceneDelegate.swift */,
-				8C8CCAAD2624AAF4002A4CC8 /* ViewController.swift */,
+				8C072F1426289A2700E69D56 /* ProfitAndLossTableViewController.swift */,
 				8C8CCAAF2624AAF4002A4CC8 /* Main.storyboard */,
+				8C072F222628A06400E69D56 /* HomeViewController.swift */,
 				8C8CCAB52624AAF5002A4CC8 /* Assets.xcassets */,
 				8C8CCAB72624AAF5002A4CC8 /* LaunchScreen.storyboard */,
 				8C8CCABA2624AAF5002A4CC8 /* Info.plist */,
@@ -261,10 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C8CCAAE2624AAF4002A4CC8 /* ViewController.swift in Sources */,
+				8C072F1B26289C8000E69D56 /* Model.swift in Sources */,
+				8C072F1526289A2700E69D56 /* ProfitAndLossTableViewController.swift in Sources */,
 				8C8CCAB42624AAF4002A4CC8 /* asset_portfolio.xcdatamodeld in Sources */,
 				8C8CCAAA2624AAF4002A4CC8 /* AppDelegate.swift in Sources */,
 				8C8CCAAC2624AAF4002A4CC8 /* SceneDelegate.swift in Sources */,
+				8C072F232628A06400E69D56 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
